@@ -31,7 +31,7 @@ def nan_values(df: pd.DataFrame) -> pd.DataFrame:
     return missing_values_df
 
 
-def column_rename(df: pd.DataFrame, column = None) -> pd:DataFrame:
+def column_rename(df: pd.DataFrame, column = None) -> pd.DataFrame:
     '''
     Function for renaming columns.
     '''
